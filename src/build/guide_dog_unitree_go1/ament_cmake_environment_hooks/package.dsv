@@ -1,0 +1,4 @@
+source;share/guide_dog_unitree_go1/local_setup.bash
+source;share/guide_dog_unitree_go1/local_setup.dsv
+source;share/guide_dog_unitree_go1/local_setup.sh
+source;share/guide_dog_unitree_go1/local_setup.zsh

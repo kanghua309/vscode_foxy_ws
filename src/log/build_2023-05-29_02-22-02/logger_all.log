@@ -1,0 +1,742 @@
+[1.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.214s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9b402febf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9b402fe710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9b402fe710>>)
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.337s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/my_ros2_ws/src'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extensions ['ignore', 'ignore_ament_install']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'ignore'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'ignore_ament_install'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extensions ['colcon_pkg']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'colcon_pkg'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extensions ['colcon_meta']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'colcon_meta'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extensions ['ros']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'ros'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extensions ['cmake', 'python']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'cmake'
+[1.405s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'python'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extensions ['python_setup_py']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1) by extension 'python_setup_py'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extensions ['ignore', 'ignore_ament_install']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extension 'ignore'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extension 'ignore_ament_install'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extensions ['colcon_pkg']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extension 'colcon_pkg'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extensions ['colcon_meta']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extension 'colcon_meta'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extensions ['ros']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/guide_dog_unitree_go1) by extension 'ros'
+[1.439s] DEBUG:colcon.colcon_core.package_identification:Package 'Guide_dog_Unitree_Go1/guide_dog_unitree_go1' with type 'ros.ament_cmake' and name 'guide_dog_unitree_go1'
+[1.440s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.441s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'ignore'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'ignore_ament_install'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extensions ['colcon_pkg']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'colcon_pkg'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extensions ['colcon_meta']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'colcon_meta'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extensions ['ros']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'ros'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extensions ['cmake', 'python']
+[1.457s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'cmake'
+[1.458s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'python'
+[1.459s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extensions ['python_setup_py']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2) by extension 'python_setup_py'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extension 'ignore'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extension 'ignore_ament_install'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extensions ['colcon_pkg']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extension 'colcon_pkg'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extensions ['colcon_meta']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extension 'colcon_meta'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extensions ['ros']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2) by extension 'ros'
+[1.481s] DEBUG:colcon.colcon_core.package_identification:Package 'Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2' with type 'ros.ament_python' and name 'listen_talk_ros2'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'ignore'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'ignore_ament_install'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extensions ['colcon_pkg']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extensions ['ros']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'ros'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extensions ['cmake', 'python']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'cmake'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'python'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extensions ['python_setup_py']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2) by extension 'python_setup_py'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extension 'ignore'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extension 'ignore_ament_install'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extensions ['colcon_pkg']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extension 'colcon_pkg'
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extensions ['colcon_meta']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extension 'colcon_meta'
+[1.516s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extensions ['ros']
+[1.517s] Level 1:colcon.colcon_core.package_identification:_identify(YOLOv7_ROS2/object_detection) by extension 'ros'
+[1.521s] DEBUG:colcon.colcon_core.package_identification:Package 'YOLOv7_ROS2/object_detection' with type 'ros.ament_python' and name 'object_detection'
+[1.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.533s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extension 'ignore'
+[1.547s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extension 'ignore_ament_install'
+[1.549s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extensions ['colcon_pkg']
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extension 'colcon_pkg'
+[1.551s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extensions ['colcon_meta']
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extension 'colcon_meta'
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extensions ['ros']
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_msg) by extension 'ros'
+[1.559s] DEBUG:colcon.colcon_core.package_identification:Package 'rslidar_msg' with type 'ros.ament_cmake' and name 'rslidar_msg'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.562s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extension 'ignore'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extensions ['colcon_pkg']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extension 'colcon_pkg'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extensions ['colcon_meta']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extension 'colcon_meta'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extensions ['ros']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(rslidar_sdk_ros2) by extension 'ros'
+[1.576s] DEBUG:colcon.colcon_core.package_identification:Package 'rslidar_sdk_ros2' with type 'ros.ament_cmake' and name 'rslidar_sdk'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extensions ['ignore', 'ignore_ament_install']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'ignore'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'ignore_ament_install'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extensions ['colcon_pkg']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'colcon_pkg'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extensions ['colcon_meta']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'colcon_meta'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extensions ['ros']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'ros'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extensions ['cmake', 'python']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'cmake'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'python'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extensions ['python_setup_py']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav) by extension 'python_setup_py'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/log) by extensions ['ignore', 'ignore_ament_install']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/log) by extension 'ignore'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/log) ignored
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extensions ['ignore', 'ignore_ament_install']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extension 'ignore'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extension 'ignore_ament_install'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extensions ['colcon_pkg']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extension 'colcon_pkg'
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extensions ['colcon_meta']
+[1.617s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extension 'colcon_meta'
+[1.618s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extensions ['ros']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav) by extension 'ros'
+[1.636s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_nav/unitree_nav' with type 'ros.ament_cmake' and name 'unitree_nav'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extension 'ignore'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extension 'ignore_ament_install'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extensions ['colcon_pkg']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extension 'colcon_pkg'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extensions ['colcon_meta']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extension 'colcon_meta'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extensions ['ros']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_interfaces) by extension 'ros'
+[1.683s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_nav/unitree_nav_interfaces' with type 'ros.ament_cmake' and name 'unitree_nav_interfaces'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extensions ['ignore', 'ignore_ament_install']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extension 'ignore'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extension 'ignore_ament_install'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extensions ['colcon_pkg']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extension 'colcon_pkg'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extensions ['colcon_meta']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extension 'colcon_meta'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extensions ['ros']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_nav/unitree_nav_launch_module) by extension 'ros'
+[1.707s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_nav/unitree_nav_launch_module' with type 'ros.ament_python' and name 'unitree_nav_launch_module'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'ignore'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'ignore_ament_install'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['colcon_pkg']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'colcon_pkg'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['colcon_meta']
+[1.717s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'colcon_meta'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['ros']
+[1.720s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'ros'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['cmake', 'python']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'cmake'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'python'
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extensions ['python_setup_py']
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2) by extension 'python_setup_py'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['ignore', 'ignore_ament_install']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'ignore'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'ignore_ament_install'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['colcon_pkg']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'colcon_pkg'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['colcon_meta']
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'colcon_meta'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extensions ['ros']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/go1_description) by extension 'ros'
+[1.753s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros2/go1_description' with type 'ros.ament_cmake' and name 'go1_description'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'ignore'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'ignore_ament_install'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['colcon_pkg']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['colcon_meta']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'colcon_meta'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extensions ['ros']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/ros2_unitree_legged_msgs) by extension 'ros'
+[1.780s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros2/ros2_unitree_legged_msgs' with type 'ros.ament_cmake' and name 'ros2_unitree_legged_msgs'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['ignore', 'ignore_ament_install']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'ignore'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'ignore_ament_install'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['colcon_pkg']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'colcon_pkg'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['colcon_meta']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'colcon_meta'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extensions ['ros']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros2/unitree_legged_real) by extension 'ros'
+[1.806s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros2/unitree_legged_real' with type 'ros.ament_cmake' and name 'unitree_legged_real'
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.952s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /workspaces/my_ros2_ws/install
+[1.959s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/humble
+[1.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.248s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_args' from command line to 'None'
+[2.249s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target' from command line to 'None'
+[2.250s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.251s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.261s] DEBUG:colcon.colcon_core.verb:Building package 'go1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/go1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/go1_description', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/unitree_ros2/go1_description', 'symlink_install': True, 'test_result_base': None}
+[2.265s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'cmake_args' from command line to 'None'
+[2.266s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'cmake_target' from command line to 'None'
+[2.267s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.268s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.269s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.270s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.275s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.277s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.280s] Level 5:colcon.colcon_core.verb:set package 'listen_talk_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.281s] DEBUG:colcon.colcon_core.verb:Building package 'listen_talk_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/listen_talk_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/listen_talk_ros2', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2', 'symlink_install': True, 'test_result_base': None}
+[2.286s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_args' from command line to 'None'
+[2.288s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target' from command line to 'None'
+[2.289s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.290s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[2.291s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_first' from command line to 'False'
+[2.293s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_force_configure' from command line to 'False'
+[2.298s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'ament_cmake_args' from command line to 'None'
+[2.299s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[2.301s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.302s] DEBUG:colcon.colcon_core.verb:Building package 'object_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/object_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/object_detection', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/YOLOv7_ROS2/object_detection', 'symlink_install': True, 'test_result_base': None}
+[2.305s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_args' from command line to 'None'
+[2.306s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_target' from command line to 'None'
+[2.307s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.309s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.311s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.312s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.314s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.315s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_unitree_legged_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/unitree_ros2/ros2_unitree_legged_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.318s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_args' from command line to 'None'
+[2.319s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target' from command line to 'None'
+[2.320s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.322s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[2.327s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.327s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.328s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/rslidar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/rslidar_msg', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/rslidar_msg', 'symlink_install': True, 'test_result_base': None}
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.335s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.336s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.338s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.341s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.342s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.343s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_nav_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.347s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'cmake_args' from command line to 'None'
+[2.348s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'cmake_target' from command line to 'None'
+[2.349s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.350s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'cmake_clean_cache' from command line to 'False'
+[2.351s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'cmake_clean_first' from command line to 'False'
+[2.353s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'cmake_force_configure' from command line to 'False'
+[2.354s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'ament_cmake_args' from command line to 'None'
+[2.355s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'catkin_cmake_args' from command line to 'None'
+[2.356s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav_launch_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.357s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_nav_launch_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_launch_module', 'symlink_install': True, 'test_result_base': None}
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_args' from command line to 'None'
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target' from command line to 'None'
+[2.362s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.364s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[2.366s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[2.368s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.374s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/rslidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/rslidar_sdk', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/rslidar_sdk_ros2', 'symlink_install': True, 'test_result_base': None}
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_args' from command line to 'None'
+[2.379s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_target' from command line to 'None'
+[2.380s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.381s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_clean_cache' from command line to 'False'
+[2.383s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_clean_first' from command line to 'False'
+[2.384s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'cmake_force_configure' from command line to 'False'
+[2.384s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'ament_cmake_args' from command line to 'None'
+[2.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'catkin_cmake_args' from command line to 'None'
+[2.391s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_real' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.392s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_legged_real' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/unitree_legged_real', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/unitree_legged_real', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/unitree_ros2/unitree_legged_real', 'symlink_install': True, 'test_result_base': None}
+[2.394s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'cmake_args' from command line to 'None'
+[2.395s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'cmake_target' from command line to 'None'
+[2.397s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[2.402s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'cmake_clean_first' from command line to 'False'
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'cmake_force_configure' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'ament_cmake_args' from command line to 'None'
+[2.406s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[2.407s] Level 5:colcon.colcon_core.verb:set package 'unitree_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.408s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/unitree_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/unitree_nav', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav', 'symlink_install': True, 'test_result_base': None}
+[2.414s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'cmake_args' from command line to 'None'
+[2.415s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'cmake_target' from command line to 'None'
+[2.416s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.418s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'cmake_clean_cache' from command line to 'False'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'cmake_clean_first' from command line to 'False'
+[2.422s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'cmake_force_configure' from command line to 'False'
+[2.423s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'ament_cmake_args' from command line to 'None'
+[2.424s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'catkin_cmake_args' from command line to 'None'
+[2.424s] Level 5:colcon.colcon_core.verb:set package 'guide_dog_unitree_go1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.426s] DEBUG:colcon.colcon_core.verb:Building package 'guide_dog_unitree_go1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/my_ros2_ws/src/build/guide_dog_unitree_go1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/my_ros2_ws/src/install/guide_dog_unitree_go1', 'merge_install': False, 'path': '/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1', 'symlink_install': True, 'test_result_base': None}
+[2.429s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/my_ros2_ws/src/unitree_ros2/ros2_unitree_legged_msgs' with build type 'ament_cmake'
+[2.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/my_ros2_ws/src/unitree_ros2/ros2_unitree_legged_msgs'
+[2.457s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.531s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/my_ros2_ws/src/rslidar_msg' with build type 'ament_cmake'
+[2.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/my_ros2_ws/src/rslidar_msg'
+[2.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.626s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_interfaces' with build type 'ament_cmake'
+[2.636s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_interfaces'
+[2.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.755s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/my_ros2_ws/src/unitree_ros2/go1_description' with build type 'ament_cmake'
+[2.761s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/my_ros2_ws/src/unitree_ros2/go1_description'
+[2.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_ros2/ros2_unitree_legged_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs
+[3.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/rslidar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/rslidar_msg
+[3.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces
+[3.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_ros2/go1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/go1_description
+[50.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_ros2/go1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/go1_description
+[50.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/go1_description -- -j4 -l4
+[53.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/go1_description -- -j4 -l4
+[56.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/go1_description
+[95.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_ros2/ros2_unitree_legged_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs
+[95.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs -- -j4 -l4
+[96.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[96.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/go1_description
+[96.482s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description' for CMake module files
+[96.595s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description' for CMake config files
+[96.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[96.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[96.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[96.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[96.713s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/bin'
+[96.717s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/lib/pkgconfig/go1_description.pc'
+[96.722s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/lib/python3.10/site-packages'
+[96.729s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/bin'
+[96.738s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.ps1'
+[96.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.dsv'
+[96.763s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.sh'
+[96.781s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.bash'
+[96.796s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.zsh'
+[96.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/go1_description/share/colcon-core/packages/go1_description)
+[100.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[100.477s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description' for CMake module files
+[100.530s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description' for CMake config files
+[100.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[100.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[100.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[100.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[100.604s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/bin'
+[100.609s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/lib/pkgconfig/go1_description.pc'
+[100.613s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/lib/python3.10/site-packages'
+[100.616s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/go1_description/bin'
+[100.623s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.ps1'
+[100.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.dsv'
+[100.644s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.sh'
+[100.659s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.bash'
+[100.672s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.zsh'
+[100.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/go1_description/share/colcon-core/packages/go1_description)
+[100.711s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2' with build type 'ament_python'
+[100.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('listen_talk_ros2', 'ament_prefix_path')
+[100.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/hook/ament_prefix_path.ps1'
+[100.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/hook/ament_prefix_path.dsv'
+[100.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/hook/ament_prefix_path.sh'
+[100.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[100.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[104.972s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/listen_talk_ros2/listen_talk_ros2'
+[104.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[104.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[112.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/listen_talk_ros2': PYTHONPATH=/workspaces/my_ros2_ws/src/build/listen_talk_ros2/prefix_override:/workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/listen_talk_ros2/build --no-deps install_data
+[121.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('listen_talk_ros2', 'pythonpath_develop')
+[121.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/build/listen_talk_ros2/share/listen_talk_ros2/hook/pythonpath_develop.ps1'
+[121.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/listen_talk_ros2' returned '0': PYTHONPATH=/workspaces/my_ros2_ws/src/build/listen_talk_ros2/prefix_override:/workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/listen_talk_ros2/build --no-deps install_data
+[121.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/build/listen_talk_ros2/share/listen_talk_ros2/hook/pythonpath_develop.dsv'
+[121.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/build/listen_talk_ros2/share/listen_talk_ros2/hook/pythonpath_develop.sh'
+[121.938s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/listen_talk_ros2' for CMake module files
+[122.011s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/listen_talk_ros2' for CMake config files
+[122.082s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib'
+[122.087s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/bin'
+[122.097s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/pkgconfig/listen_talk_ros2.pc'
+[122.108s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/python3.10/site-packages'
+[122.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('listen_talk_ros2', 'pythonpath')
+[122.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/hook/pythonpath.ps1'
+[122.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/hook/pythonpath.dsv'
+[122.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/hook/pythonpath.sh'
+[122.238s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/bin'
+[122.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(listen_talk_ros2)
+[122.252s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/package.ps1'
+[122.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/package.dsv'
+[122.297s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/package.sh'
+[122.323s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/package.bash'
+[122.346s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2/package.zsh'
+[122.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/colcon-core/packages/listen_talk_ros2)
+[122.411s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/my_ros2_ws/src/YOLOv7_ROS2/object_detection' with build type 'ament_python'
+[122.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'ament_prefix_path')
+[122.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/hook/ament_prefix_path.ps1'
+[122.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/hook/ament_prefix_path.dsv'
+[122.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/hook/ament_prefix_path.sh'
+[122.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[122.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[125.585s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/my_ros2_ws/src/YOLOv7_ROS2/object_detection'
+[125.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[125.619s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[129.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/object_detection': PYTHONPATH=/workspaces/my_ros2_ws/src/build/object_detection/prefix_override:/workspaces/my_ros2_ws/src/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/object_detection/build --no-deps install_data
+[134.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonpath_develop')
+[134.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/build/object_detection/share/object_detection/hook/pythonpath_develop.ps1'
+[134.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/object_detection' returned '0': PYTHONPATH=/workspaces/my_ros2_ws/src/build/object_detection/prefix_override:/workspaces/my_ros2_ws/src/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/object_detection/build --no-deps install_data
+[134.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/build/object_detection/share/object_detection/hook/pythonpath_develop.dsv'
+[134.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/build/object_detection/share/object_detection/hook/pythonpath_develop.sh'
+[134.852s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/object_detection' for CMake module files
+[134.914s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/object_detection' for CMake config files
+[134.955s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/object_detection/lib'
+[134.958s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/object_detection/bin'
+[134.964s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/object_detection/lib/pkgconfig/object_detection.pc'
+[134.967s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/object_detection/lib/python3.10/site-packages'
+[134.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonpath')
+[134.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/hook/pythonpath.ps1'
+[135.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/hook/pythonpath.dsv'
+[135.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/hook/pythonpath.sh'
+[135.090s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/object_detection/bin'
+[135.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detection)
+[135.117s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/package.ps1'
+[135.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/package.dsv'
+[135.167s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/package.sh'
+[135.188s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/package.bash'
+[135.216s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/object_detection/share/object_detection/package.zsh'
+[135.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/object_detection/share/colcon-core/packages/object_detection)
+[135.278s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_launch_module' with build type 'ament_python'
+[135.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_nav_launch_module', 'ament_prefix_path')
+[135.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/ament_prefix_path.ps1'
+[135.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/ament_prefix_path.dsv'
+[135.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/ament_prefix_path.sh'
+[135.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[135.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[140.188s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_launch_module'
+[140.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[140.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[140.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_nav/unitree_nav_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces
+[140.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_nav_interfaces -- -j4 -l4
+[143.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module': PYTHONPATH=/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module/prefix_override:/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/unitree_nav_launch_module/build --no-deps install_data
+[146.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake /workspaces/my_ros2_ws/src/rslidar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/rslidar_msg
+[146.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/rslidar_msg -- -j4 -l4
+[147.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_nav_launch_module', 'pythonpath_develop')
+[147.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/pythonpath_develop.ps1'
+[147.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module' returned '0': PYTHONPATH=/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module/prefix_override:/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/unitree_nav_launch_module/build --no-deps install_data
+[147.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/pythonpath_develop.dsv'
+[147.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/build/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/pythonpath_develop.sh'
+[147.503s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module' for CMake module files
+[147.546s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module' for CMake config files
+[147.585s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/lib'
+[147.594s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/bin'
+[147.597s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/lib/pkgconfig/unitree_nav_launch_module.pc'
+[147.601s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/lib/python3.10/site-packages'
+[147.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_nav_launch_module', 'pythonpath')
+[147.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/pythonpath.ps1'
+[147.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/pythonpath.dsv'
+[147.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/hook/pythonpath.sh'
+[147.666s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/bin'
+[147.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_nav_launch_module)
+[147.677s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/package.ps1'
+[147.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/package.dsv'
+[147.710s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/package.sh'
+[147.739s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/package.bash'
+[147.755s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/unitree_nav_launch_module/package.zsh'
+[147.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/unitree_nav_launch_module/share/colcon-core/packages/unitree_nav_launch_module)
+[272.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/rslidar_msg -- -j4 -l4
+[282.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/rslidar_msg
+[308.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_nav_interfaces -- -j4 -l4
+[322.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[322.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/rslidar_msg
+[322.165s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg' for CMake module files
+[322.363s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg' for CMake config files
+[322.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[322.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[322.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[322.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[322.527s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/lib'
+[322.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[322.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[322.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[322.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[322.578s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/bin'
+[322.580s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[322.588s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/lib/python3.10/site-packages'
+[322.591s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/bin'
+[322.597s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[322.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[322.624s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.sh'
+[322.634s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.bash'
+[322.647s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[322.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[323.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/unitree_nav_interfaces
+[331.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[331.796s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg' for CMake module files
+[331.888s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg' for CMake config files
+[332.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[332.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[332.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[332.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[332.104s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/lib'
+[332.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[332.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[332.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[332.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[332.164s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/bin'
+[332.167s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[332.170s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/lib/python3.10/site-packages'
+[332.172s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_msg/bin'
+[332.185s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[332.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[332.216s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.sh'
+[332.224s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.bash'
+[332.239s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[332.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[332.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/my_ros2_ws/src/rslidar_sdk_ros2' with build type 'ament_cmake'
+[332.293s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/my_ros2_ws/src/rslidar_sdk_ros2'
+[332.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[332.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[333.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/rslidar_sdk': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/rslidar_sdk_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/rslidar_sdk
+[370.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_nav_interfaces)
+[370.122s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces' for CMake module files
+[370.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/unitree_nav_interfaces
+[370.343s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces' for CMake config files
+[370.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_nav_interfaces', 'cmake_prefix_path')
+[370.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/cmake_prefix_path.ps1'
+[370.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/cmake_prefix_path.dsv'
+[370.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/cmake_prefix_path.sh'
+[370.551s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib'
+[370.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_nav_interfaces', 'ld_library_path_lib')
+[370.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/ld_library_path_lib.ps1'
+[370.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/ld_library_path_lib.dsv'
+[370.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/ld_library_path_lib.sh'
+[370.598s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/bin'
+[370.602s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib/pkgconfig/unitree_nav_interfaces.pc'
+[370.605s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib/python3.10/site-packages'
+[370.608s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/bin'
+[370.614s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.ps1'
+[370.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.dsv'
+[370.643s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.sh'
+[370.656s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.bash'
+[370.672s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.zsh'
+[370.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/colcon-core/packages/unitree_nav_interfaces)
+[384.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_nav_interfaces)
+[384.873s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces' for CMake module files
+[384.929s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces' for CMake config files
+[385.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_nav_interfaces', 'cmake_prefix_path')
+[385.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/cmake_prefix_path.ps1'
+[385.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/cmake_prefix_path.dsv'
+[385.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/cmake_prefix_path.sh'
+[385.073s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib'
+[385.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_nav_interfaces', 'ld_library_path_lib')
+[385.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/ld_library_path_lib.ps1'
+[385.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/ld_library_path_lib.dsv'
+[385.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/hook/ld_library_path_lib.sh'
+[385.112s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/bin'
+[385.121s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib/pkgconfig/unitree_nav_interfaces.pc'
+[385.127s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib/python3.10/site-packages'
+[385.132s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/bin'
+[385.139s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.ps1'
+[385.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.dsv'
+[385.166s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.sh'
+[385.179s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.bash'
+[385.193s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.zsh'
+[385.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/colcon-core/packages/unitree_nav_interfaces)
+[394.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/rslidar_sdk_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/rslidar_sdk
+[394.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/rslidar_sdk': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/rslidar_sdk -- -j4 -l4
+[683.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/rslidar_sdk -- -j4 -l4
+[685.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/rslidar_sdk': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/rslidar_sdk
+[695.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[695.943s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk' for CMake module files
+[695.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/rslidar_sdk
+[695.996s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk' for CMake config files
+[696.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[696.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[696.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[696.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[696.088s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/lib'
+[696.094s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/bin'
+[696.098s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[696.104s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/lib/python3.10/site-packages'
+[696.107s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/bin'
+[696.114s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[696.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[696.137s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[696.147s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[696.161s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[696.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[696.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs -- -j4 -l4
+[698.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[698.590s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk' for CMake module files
+[698.641s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk' for CMake config files
+[698.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[698.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[698.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[698.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[698.684s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/lib'
+[698.686s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/bin'
+[698.690s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[698.692s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/lib/python3.10/site-packages'
+[698.695s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/rslidar_sdk/bin'
+[698.700s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[698.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[698.714s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[698.726s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[698.738s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[698.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[757.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs
+[867.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_msgs)
+[867.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs
+[867.384s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs' for CMake module files
+[867.618s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs' for CMake config files
+[868.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'cmake_prefix_path')
+[868.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.ps1'
+[868.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.dsv'
+[868.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.sh'
+[868.345s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib'
+[868.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'ld_library_path_lib')
+[868.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.ps1'
+[868.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.dsv'
+[868.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.sh'
+[868.459s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/bin'
+[868.464s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/pkgconfig/ros2_unitree_legged_msgs.pc'
+[868.479s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/python3.10/site-packages'
+[868.483s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/bin'
+[868.493s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.ps1'
+[868.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.dsv'
+[868.535s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.sh'
+[868.551s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.bash'
+[868.581s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.zsh'
+[868.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/colcon-core/packages/ros2_unitree_legged_msgs)
+[919.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_msgs)
+[919.912s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs' for CMake module files
+[919.987s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs' for CMake config files
+[920.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'cmake_prefix_path')
+[920.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.ps1'
+[920.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.dsv'
+[920.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.sh'
+[920.323s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib'
+[920.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'ld_library_path_lib')
+[920.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.ps1'
+[920.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.dsv'
+[920.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.sh'
+[920.357s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/bin'
+[920.360s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/pkgconfig/ros2_unitree_legged_msgs.pc'
+[920.368s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/python3.10/site-packages'
+[920.371s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/bin'
+[920.402s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.ps1'
+[920.416s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.dsv'
+[920.429s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.sh'
+[920.442s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.bash'
+[920.449s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.zsh'
+[920.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/colcon-core/packages/ros2_unitree_legged_msgs)
+[920.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav' with build type 'ament_cmake'
+[920.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/my_ros2_ws/src/unitree_nav/unitree_nav'
+[920.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[920.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[920.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/my_ros2_ws/src/unitree_ros2/unitree_legged_real' with build type 'ament_cmake'
+[920.710s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/my_ros2_ws/src/unitree_ros2/unitree_legged_real'
+[920.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[920.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[921.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_ros2/unitree_legged_real -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_legged_real
+[922.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib:/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_nav/unitree_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_nav
+[976.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_ros2/unitree_legged_real -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_legged_real
+[976.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_legged_real -- -j4 -l4
+[990.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_nav' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib:/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_nav/unitree_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_nav
+[990.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib:/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_nav -- -j4 -l4
+[1672.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real' returned '2': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_legged_real -- -j4 -l4
+[1676.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_legged_real)
+[1676.545s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_legged_real' for CMake module files
+[1676.580s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_legged_real' for CMake config files
+[1676.610s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_legged_real/bin'
+[1676.613s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/pkgconfig/unitree_legged_real.pc'
+[1676.639s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/python3.10/site-packages'
+[1676.641s] Level 1:colcon.colcon_core.environment:checking '/workspaces/my_ros2_ws/src/install/unitree_legged_real/bin'
+[1676.648s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.ps1'
+[1676.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.dsv'
+[1676.752s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.sh'
+[1676.765s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.bash'
+[1676.782s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.zsh'
+[1676.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/my_ros2_ws/src/install/unitree_legged_real/share/colcon-core/packages/unitree_legged_real)
+[1703.965s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1703.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1703.984s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1703.990s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1704.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1704.234s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1704.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1704.236s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1704.574s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Authorization required, but no authorization protocol specified
+Autolaunch error: X11 initialization failed.
+
+[1704.577s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1704.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/my_ros2_ws/src/install/local_setup.ps1'
+[1704.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/my_ros2_ws/src/install/_local_setup_util_ps1.py'
+[1704.620s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/my_ros2_ws/src/install/setup.ps1'
+[1704.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/my_ros2_ws/src/install/local_setup.sh'
+[1704.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/my_ros2_ws/src/install/_local_setup_util_sh.py'
+[1704.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/my_ros2_ws/src/install/setup.sh'
+[1704.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/my_ros2_ws/src/install/local_setup.bash'
+[1704.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/my_ros2_ws/src/install/setup.bash'
+[1704.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/my_ros2_ws/src/install/local_setup.zsh'
+[1704.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/my_ros2_ws/src/install/setup.zsh'

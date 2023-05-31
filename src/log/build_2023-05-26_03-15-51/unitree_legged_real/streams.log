@@ -1,0 +1,44 @@
+[0.269s] Invoking command in '/home/ros/Workshop/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Workshop/src/build/unitree_legged_real -- -j4 -l4
+[1.525s] [ 12%] Built target jsp_high
+[1.589s] [ 25%] Built target ros2_udp
+[1.623s] [ 37%] Built target jsp_low
+[1.638s] [ 50%] Built target udp_high
+[2.039s] [ 62%] Built target udp_low
+[2.068s] [ 75%] Built target ros2_walk_example
+[2.099s] [ 87%] Built target custom_gait
+[2.120s] [100%] Built target ros2_position_example
+[2.303s] Invoked command in '/home/ros/Workshop/src/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Workshop/src/build/unitree_legged_real -- -j4 -l4
+[3.299s] Invoking command in '/home/ros/Workshop/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/Workshop/src/build/unitree_legged_real
+[3.361s] -- Install configuration: ""
+[3.369s] -- Execute custom install script
+[3.369s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+[3.370s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+[3.370s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[3.370s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/udp_high
+[3.371s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/jsp_high
+[3.372s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[3.372s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[3.372s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/custom_gait
+[3.373s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/udp_low
+[3.373s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/lib/unitree_legged_real/jsp_low
+[3.374s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real//launch/high.launch.py
+[3.374s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real//launch/low.launch.py
+[3.377s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real//config/cmd_only.rviz
+[3.377s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real//config/state_and_cmd.rviz
+[3.377s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real//config/state_only.rviz
+[3.379s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[3.379s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[3.379s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[3.380s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[3.381s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[3.381s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[3.382s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[3.382s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[3.383s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[3.384s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[3.385s] -- Symlinking: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[3.438s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[3.438s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[3.440s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[3.441s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[3.444s] Invoked command in '/home/ros/Workshop/src/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/Workshop/src/build/unitree_legged_real

@@ -1,0 +1,53 @@
+[35m[1mConsolidate compiler generated dependencies of target udp_high[0m
+[  6%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target jsp_low[0m
+[35m[1mConsolidate compiler generated dependencies of target jsp_high[0m
+[ 18%] Built target jsp_low
+[ 31%] Built target udp_high
+[ 43%] Built target jsp_high
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/udp_low.dir/src/udp_low.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[ 75%] [32m[1mLinking CXX executable ros2_position_example[0m
+[ 75%] Built target ros2_walk_example
+[ 75%] Built target ros2_position_example
+[ 81%] [32m[1mLinking CXX executable udp_low[0m
+[ 81%] Built target udp_low
+[ 87%] [32m[1mLinking CXX executable ros2_udp[0m
+[ 87%] Built target ros2_udp
+[ 93%] [32mBuilding CXX object CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o[0m
+[100%] [32m[1mLinking CXX executable custom_gait[0m
+[100%] Built target custom_gait
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/udp_high
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/jsp_high
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/custom_gait
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/udp_low
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/jsp_low
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//launch/high.launch.py
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//launch/low.launch.py
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//config/cmd_only.rviz
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//config/state_and_cmd.rviz
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//config/state_only.rviz
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+-- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.xml

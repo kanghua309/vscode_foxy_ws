@@ -1,0 +1,73 @@
+[0.076s] Invoking command in '/home/ros/Workshop/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/Workshop/src/unitree_ros2/unitree_legged_real -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/unitree_legged_real
+[0.417s] -- The C compiler identification is GNU 11.3.0
+[0.746s] -- The CXX compiler identification is GNU 11.3.0
+[0.782s] -- Detecting C compiler ABI info
+[1.225s] -- Detecting C compiler ABI info - done
+[1.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.233s] -- Detecting C compile features
+[1.234s] -- Detecting C compile features - done
+[1.239s] -- Detecting CXX compiler ABI info
+[1.582s] -- Detecting CXX compiler ABI info - done
+[1.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.597s] -- Detecting CXX compile features
+[1.598s] -- Detecting CXX compile features - done
+[1.610s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.701s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.988s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.177s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[3.365s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.384s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.421s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.881s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.906s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.100s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.298s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.602s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.691s] -- Looking for pthread.h
+[7.396s] -- Looking for pthread.h - found
+[7.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.630s] -- Found Threads: TRUE  
+[9.475s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[9.574s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.495s] -- -- CMAKE_SYSTEM_PROCESSOR: x86_64
+[11.139s] -- Configuring done
+[11.464s] -- Generating done
+[11.474s] -- Build files have been written to: /home/ros/Workshop/src/build/unitree_legged_real
+[11.640s] Invoked command in '/home/ros/Workshop/src/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/Workshop/src/unitree_ros2/unitree_legged_real -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/unitree_legged_real
+[11.660s] Invoking command in '/home/ros/Workshop/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Workshop/src/build/unitree_legged_real -- -j4 -l4
+[13.298s] [  6%] [32mBuilding CXX object CMakeFiles/udp_high.dir/src/udp_high.cpp.o[0m
+[13.329s] [ 12%] [32mBuilding CXX object CMakeFiles/jsp_low.dir/src/jsp_low.cpp.o[0m
+[13.369s] [ 18%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[13.376s] [ 25%] [32mBuilding CXX object CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o[0m
+[18.249s] In file included from [01m[K/home/ros/Workshop/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/include/unitree_legged_sdk/unitree_legged_sdk.h:13[m[K,
+[18.251s]                  from [01m[K/home/ros/Workshop/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:6[m[K:
+[18.251s] [01m[K/home/ros/Workshop/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/include/unitree_legged_sdk/loop.h:14:10:[m[K [01;31m[Kfatal error: [m[Kboost/shared_ptr.hpp: No such file or directory
+[18.251s]    14 | #include [01;31m[K<boost/shared_ptr.hpp>[m[K
+[18.252s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.252s] compilation terminated.
+[18.410s] gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] Error 1
+[18.416s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/ros2_udp.dir/all] Error 2
+[18.416s] gmake[1]: *** Waiting for unfinished jobs....
+[18.555s] In file included from [01m[K/home/ros/Workshop/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/include/unitree_legged_sdk/unitree_legged_sdk.h:13[m[K,
+[18.555s]                  from [01m[K/home/ros/Workshop/src/unitree_ros2/unitree_legged_real/src/udp_high.cpp:6[m[K:
+[18.555s] [01m[K/home/ros/Workshop/src/unitree_ros2/unitree_legged_real/unitree_legged_sdk-master/include/unitree_legged_sdk/loop.h:14:10:[m[K [01;31m[Kfatal error: [m[Kboost/shared_ptr.hpp: No such file or directory
+[18.555s]    14 | #include [01;31m[K<boost/shared_ptr.hpp>[m[K
+[18.555s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.556s] compilation terminated.
+[18.619s] gmake[2]: *** [CMakeFiles/udp_high.dir/build.make:76: CMakeFiles/udp_high.dir/src/udp_high.cpp.o] Error 1
+[18.620s] gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/udp_high.dir/all] Error 2
+[108.911s] [ 31%] [32m[1mLinking CXX executable jsp_high[0m
+[109.414s] /usr/bin/ld: cannot find -llcm: No such file or directory
+[109.777s] collect2: error: ld returned 1 exit status
+[109.784s] gmake[2]: *** [CMakeFiles/jsp_high.dir/build.make:183: jsp_high] Error 1
+[109.788s] gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/jsp_high.dir/all] Error 2
+[118.315s] [ 37%] [32m[1mLinking CXX executable jsp_low[0m
+[118.558s] /usr/bin/ld: cannot find -llcm: No such file or directory
+[118.688s] collect2: error: ld returned 1 exit status
+[118.693s] gmake[2]: *** [CMakeFiles/jsp_low.dir/build.make:183: jsp_low] Error 1
+[118.701s] gmake[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/jsp_low.dir/all] Error 2
+[118.702s] gmake: *** [Makefile:146: all] Error 2
+[118.794s] Invoked command in '/home/ros/Workshop/src/build/unitree_legged_real' returned '2': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Workshop/src/build/unitree_legged_real -- -j4 -l4

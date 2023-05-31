@@ -1,0 +1,38 @@
+[0.124s] Invoking command in '/home/ros/Workshop/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Workshop/src/build/go1_description -- -j4 -l4
+[0.584s] Invoked command in '/home/ros/Workshop/src/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Workshop/src/build/go1_description -- -j4 -l4
+[2.605s] Invoking command in '/home/ros/Workshop/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Workshop/src/build/go1_description
+[2.708s] -- Install configuration: ""
+[2.709s] -- Execute custom install script
+[2.710s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//launch/load_go1.launch.py
+[2.710s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//config/go1.rviz
+[2.711s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//meshes/calf.dae
+[2.712s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[2.713s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//meshes/hip.dae
+[2.713s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//meshes/thigh.dae
+[2.713s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[2.714s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//meshes/trunk.dae
+[2.714s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[2.715s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/const.xacro
+[2.715s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[2.716s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[2.716s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/leg.xacro
+[2.717s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/materials.xacro
+[2.717s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/robot.xacro
+[2.718s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/transmission.xacro
+[2.718s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[2.718s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[2.719s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[2.720s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[2.720s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[2.720s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/environment/path.sh
+[2.720s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/environment/path.dsv
+[2.720s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/local_setup.bash
+[2.723s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/local_setup.sh
+[2.723s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/local_setup.zsh
+[2.723s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/local_setup.dsv
+[2.723s] -- Symlinking: /home/ros/Workshop/src/install/go1_description/share/go1_description/package.dsv
+[2.931s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[2.932s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[2.932s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[2.934s] -- Up-to-date symlink: /home/ros/Workshop/src/install/go1_description/share/go1_description/package.xml
+[2.941s] Invoked command in '/home/ros/Workshop/src/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Workshop/src/build/go1_description

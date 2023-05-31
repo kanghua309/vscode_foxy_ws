@@ -1,0 +1,6 @@
+[0.572s] Invoking command in '/workspaces/my_ros2_ws/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/rslidar_msg -- -j4 -l4
+[0.976s] [0mCMake Error: The current CMakeCache.txt directory /workspaces/my_ros2_ws/src/build/rslidar_msg/CMakeCache.txt is different than the directory /home/ros/Workshop/src/build/rslidar_msg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.621s] [0mCMake Error: The source directory "/home/ros/Workshop/src/rslidar_msg" does not exist.
+[1.627s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.633s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[1.639s] Invoked command in '/workspaces/my_ros2_ws/src/build/rslidar_msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/rslidar_msg -- -j4 -l4

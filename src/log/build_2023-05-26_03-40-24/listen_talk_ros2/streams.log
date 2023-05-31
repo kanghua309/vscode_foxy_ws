@@ -1,0 +1,18 @@
+[7.524s] Invoking command in '/home/ros/Workshop/src/build/listen_talk_ros2': PYTHONPATH=/home/ros/Workshop/src/build/listen_talk_ros2/prefix_override:/home/ros/Workshop/src/install/listen_talk_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros/Workshop/src/build/listen_talk_ros2/build --no-deps install_data
+[9.691s] running develop
+[10.912s] running egg_info
+[10.913s] writing listen_talk_ros2.egg-info/PKG-INFO
+[10.914s] writing dependency_links to listen_talk_ros2.egg-info/dependency_links.txt
+[10.914s] writing entry points to listen_talk_ros2.egg-info/entry_points.txt
+[10.917s] writing requirements to listen_talk_ros2.egg-info/requires.txt
+[10.920s] writing top-level names to listen_talk_ros2.egg-info/top_level.txt
+[10.931s] reading manifest file 'listen_talk_ros2.egg-info/SOURCES.txt'
+[10.933s] writing manifest file 'listen_talk_ros2.egg-info/SOURCES.txt'
+[10.945s] running build_ext
+[10.948s] Creating /home/ros/Workshop/src/install/listen_talk_ros2/lib/python3.10/site-packages/listen-talk-ros2.egg-link (link to .)
+[10.955s] Installing listen script to /home/ros/Workshop/src/install/listen_talk_ros2/lib/listen_talk_ros2
+[10.959s] Installing talk script to /home/ros/Workshop/src/install/listen_talk_ros2/lib/listen_talk_ros2
+[10.961s] 
+[10.962s] Installed /home/ros/Workshop/src/build/listen_talk_ros2
+[10.962s] running install_data
+[11.123s] Invoked command in '/home/ros/Workshop/src/build/listen_talk_ros2' returned '0': PYTHONPATH=/home/ros/Workshop/src/build/listen_talk_ros2/prefix_override:/home/ros/Workshop/src/install/listen_talk_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros/Workshop/src/build/listen_talk_ros2/build --no-deps install_data

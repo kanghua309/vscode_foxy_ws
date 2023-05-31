@@ -1,0 +1,28 @@
+[0.123s] Invoking command in '/home/ros/Workshop/src/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Workshop/src/build/rslidar_sdk -- -j4 -l4
+[0.828s] [100%] Built target rslidar_sdk_node
+[0.932s] Invoked command in '/home/ros/Workshop/src/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Workshop/src/build/rslidar_sdk -- -j4 -l4
+[1.497s] Invoking command in '/home/ros/Workshop/src/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/Workshop/src/build/rslidar_sdk
+[1.576s] -- Install configuration: "Release"
+[1.578s] -- Execute custom install script
+[1.579s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[1.580s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[1.581s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[1.582s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[1.582s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[1.582s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[1.583s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[1.583s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[1.583s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[1.584s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[1.585s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[1.585s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[1.586s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[1.587s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[1.587s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[1.588s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[1.588s] -- Symlinking: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[1.656s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[1.656s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[1.656s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[1.656s] -- Up-to-date symlink: /home/ros/Workshop/src/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[1.670s] Invoked command in '/home/ros/Workshop/src/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/rslidar_msg:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/Workshop/src/build/rslidar_sdk

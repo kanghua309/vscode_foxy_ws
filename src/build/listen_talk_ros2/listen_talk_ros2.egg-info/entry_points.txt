@@ -1,0 +1,4 @@
+[console_scripts]
+listen = listen_talk_ros2.listen:main
+talk = listen_talk_ros2.talk:main
+

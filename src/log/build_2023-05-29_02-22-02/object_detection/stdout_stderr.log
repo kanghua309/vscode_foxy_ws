@@ -1,0 +1,38 @@
+running develop
+running egg_info
+creating object_detection.egg-info
+writing object_detection.egg-info/PKG-INFO
+writing dependency_links to object_detection.egg-info/dependency_links.txt
+writing entry points to object_detection.egg-info/entry_points.txt
+writing requirements to object_detection.egg-info/requires.txt
+writing top-level names to object_detection.egg-info/top_level.txt
+writing manifest file 'object_detection.egg-info/SOURCES.txt'
+reading manifest file 'object_detection.egg-info/SOURCES.txt'
+writing manifest file 'object_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/my_ros2_ws/src/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)
+Installing object_detection script to /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection
+
+Installed /workspaces/my_ros2_ws/src/build/object_detection
+running install_data
+creating /workspaces/my_ros2_ws/src/install/object_detection/share/ament_index
+creating /workspaces/my_ros2_ws/src/install/object_detection/share/ament_index/resource_index
+creating /workspaces/my_ros2_ws/src/install/object_detection/share/ament_index/resource_index/packages
+copying resource/object_detection -> /workspaces/my_ros2_ws/src/install/object_detection/share/ament_index/resource_index/packages
+copying package.xml -> /workspaces/my_ros2_ws/src/install/object_detection/share/object_detection
+copying launch/object_detection.launch.xml -> /workspaces/my_ros2_ws/src/install/object_detection/share/object_detection
+creating /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/models
+copying models/experimental.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/models/
+copying models/common.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/models/
+copying models/yolo.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/models/
+creating /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils
+copying utils/general.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/torch_utils.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/plots.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/datasets.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/google_utils.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/activations.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/add_nms.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/autoanchor.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/loss.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/
+copying utils/metrics.py -> /workspaces/my_ros2_ws/src/install/object_detection/lib/object_detection/utils/

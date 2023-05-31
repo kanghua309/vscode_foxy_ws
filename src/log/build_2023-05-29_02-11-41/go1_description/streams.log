@@ -1,0 +1,6 @@
+[0.445s] Invoking command in '/workspaces/my_ros2_ws/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/go1_description -- -j4 -l4
+[0.820s] [0mCMake Error: The current CMakeCache.txt directory /workspaces/my_ros2_ws/src/build/go1_description/CMakeCache.txt is different than the directory /home/ros/Workshop/src/build/go1_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.404s] [0mCMake Error: The source directory "/home/ros/Workshop/src/unitree_ros2/go1_description" does not exist.
+[1.414s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.423s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.449s] Invoked command in '/workspaces/my_ros2_ws/src/build/go1_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/go1_description -- -j4 -l4

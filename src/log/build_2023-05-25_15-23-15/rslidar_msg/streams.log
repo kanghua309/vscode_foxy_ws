@@ -1,0 +1,33 @@
+[0.105s] Invoking command in '/home/ros/Workshop/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Workshop/src/rslidar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/rslidar_msg
+[0.533s] -- The C compiler identification is GNU 11.3.0
+[0.817s] -- The CXX compiler identification is GNU 11.3.0
+[0.850s] -- Detecting C compiler ABI info
+[1.398s] -- Detecting C compiler ABI info - done
+[1.418s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.418s] -- Detecting C compile features
+[1.419s] -- Detecting C compile features - done
+[1.426s] -- Detecting CXX compiler ABI info
+[1.931s] -- Detecting CXX compiler ABI info - done
+[1.947s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.949s] -- Detecting CXX compile features
+[1.950s] -- Detecting CXX compile features - done
+[1.962s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.710s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.930s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.114s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[3.251s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.275s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.320s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.633s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[3.847s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.868s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.698s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.873s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.913s] -- Looking for pthread.h
+[5.361s] -- Looking for pthread.h - found
+[5.363s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.763s] -- Found Threads: TRUE  

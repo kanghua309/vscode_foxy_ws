@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target jsp_low[0m
+[35m[1mConsolidate compiler generated dependencies of target jsp_high[0m
+[  6%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable jsp_low[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/udp_high.dir/src/udp_high.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable jsp_high[0m

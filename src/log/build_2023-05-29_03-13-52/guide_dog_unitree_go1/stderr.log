@@ -1,0 +1,17 @@
+warning: tag INPUT: input source 'README.md' does not exist
+warning: source 'README.md' is not a readable file or directory... skipping.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:73: warning: Compound Pose2D is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:87: warning: Compound guide_dog is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:47: warning: Member STATES (macro definition) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:53: warning: Member X(state, name) (macro definition) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:57: warning: Member X(state, name) (macro definition) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:54: warning: Member State (enumeration) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:63: warning: Member to_value(Enumeration const value) -> typename std::underlying_type< Enumeration >::type (function) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:69: warning: Member get_state_name(State state) (function) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:352: warning: Member quaternion_to_rpy(const geometry_msgs::msg::Quaternion &q) (function) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:362: warning: Member rpy_to_quaternion(double roll, double pitch, double yaw) (function) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:368: warning: Member main(int argc, char **argv) (function) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:58: warning: Member STATE_NAMES (variable) of file guide_dog.cpp is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:74: warning: Member x (variable) of struct Pose2D is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:75: warning: Member y (variable) of struct Pose2D is not documented.
+/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/src/guide_dog.cpp:76: warning: Member theta (variable) of struct Pose2D is not documented.

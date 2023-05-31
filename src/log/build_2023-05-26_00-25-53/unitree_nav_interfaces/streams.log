@@ -1,0 +1,181 @@
+[0.135s] Invoking command in '/home/ros/Workshop/src/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Workshop/src/unitree_nav/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/unitree_nav_interfaces
+[0.253s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.684s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.707s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.772s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.776s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.789s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.824s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.370s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.491s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.224s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.468s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.469s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.470s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.753s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.531s] -- Configured cppcheck include dirs: 
+[7.532s] -- Configured cppcheck exclude dirs and/or files: 
+[7.581s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.667s] -- Added test 'lint_cmake' to check CMake code style
+[7.700s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.853s] -- Added test 'uncrustify' to check C / C++ code style
+[7.854s] -- Configured uncrustify additional arguments: 
+[7.872s] -- Added test 'xmllint' to check XML markup files
+[7.894s] -- Configuring done
+[8.234s] -- Generating done
+[8.255s] -- Build files have been written to: /home/ros/Workshop/src/build/unitree_nav_interfaces
+[8.280s] Invoked command in '/home/ros/Workshop/src/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Workshop/src/unitree_nav/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/unitree_nav_interfaces
+[8.285s] Invoking command in '/home/ros/Workshop/src/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Workshop/src/build/unitree_nav_interfaces -- -j4 -l4
+[9.354s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_generator_c[0m
+[9.719s] [ 10%] Built target unitree_nav_interfaces_srv__rosidl_generator_c
+[9.816s] [ 12%] Built target unitree_nav_interfaces_srv__cpp
+[10.021s] [ 12%] Built target ament_cmake_python_symlink_unitree_nav_interfaces
+[10.387s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c[0m
+[10.396s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c[0m
+[10.545s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_typesupport_c[0m
+[10.620s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp[0m
+[10.820s] [ 23%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c
+[10.845s] [ 33%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c
+[10.965s] [ 43%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_c
+[10.977s] [ 53%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp
+[11.112s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_typesupport_cpp[0m
+[11.209s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp[0m
+[11.372s] [ 64%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_cpp
+[11.426s] [ 74%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp
+[11.782s] [ 74%] Built target unitree_nav_interfaces_srv
+[12.187s] [ 76%] Built target unitree_nav_interfaces_srv__py
+[12.470s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces_srv__rosidl_generator_py[0m
+[12.506s] running egg_info
+[12.509s] writing unitree_nav_interfaces.egg-info/PKG-INFO
+[12.511s] writing dependency_links to unitree_nav_interfaces.egg-info/dependency_links.txt
+[12.512s] writing top-level names to unitree_nav_interfaces.egg-info/top_level.txt
+[12.536s] reading manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[12.544s] writing manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[12.823s] [ 84%] Built target unitree_nav_interfaces_srv__rosidl_generator_py
+[12.865s] [ 84%] Built target ament_cmake_python_build_unitree_nav_interfaces_egg
+[13.064s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces__rosidl_typesupport_c__pyext[0m
+[13.141s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[13.162s] [35m[1mConsolidate compiler generated dependencies of target unitree_nav_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[13.372s] [ 89%] Built target unitree_nav_interfaces__rosidl_typesupport_c__pyext
+[13.409s] [ 94%] Built target unitree_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[13.435s] [100%] Built target unitree_nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[13.538s] Invoked command in '/home/ros/Workshop/src/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Workshop/src/build/unitree_nav_interfaces -- -j4 -l4
+[15.807s] Invoking command in '/home/ros/Workshop/src/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Workshop/src/build/unitree_nav_interfaces
+[15.872s] -- Install configuration: ""
+[15.875s] -- Execute custom install script
+[15.875s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/unitree_nav_interfaces
+[15.877s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.877s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.h
+[15.878s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.h
+[15.878s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.h
+[15.879s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.h
+[15.879s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.h
+[15.880s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.h
+[15.880s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.h
+[15.880s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.h
+[15.881s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.sh
+[15.882s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.dsv
+[15.883s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.885s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_c.h
+[15.885s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_c.h
+[15.885s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__builder.hpp
+[15.885s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.hpp
+[15.886s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__traits.hpp
+[15.887s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp
+[15.887s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp
+[15.887s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp
+[15.888s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.hpp
+[15.888s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.hpp
+[15.890s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.890s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[15.891s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_cpp.hpp
+[15.892s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.892s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_c.h
+[15.893s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_c.h
+[15.894s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[15.894s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_cpp.hpp
+[15.895s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.sh
+[15.895s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.dsv
+[15.896s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[15.897s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.897s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.898s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[15.899s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/__init__.py
+[15.901s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[15.901s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.902s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.903s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[15.903s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/__init__.py
+[15.904s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose.py
+[15.904s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose_s.c
+[15.905s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy.py
+[15.905s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy_s.c
+[15.906s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.907s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.907s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.908s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.908s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.909s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.910s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.idl
+[15.910s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.idl
+[15.911s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.srv
+[15.911s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Request.msg
+[15.912s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Response.msg
+[15.913s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.srv
+[15.913s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Request.msg
+[15.914s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Response.msg
+[15.915s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/ament_index/resource_index/package_run_dependencies/unitree_nav_interfaces
+[15.915s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/ament_index/resource_index/parent_prefix_path/unitree_nav_interfaces
+[15.916s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.sh
+[15.916s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.dsv
+[15.917s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.sh
+[15.918s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.dsv
+[15.918s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.bash
+[15.919s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.sh
+[15.919s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.zsh
+[15.920s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.dsv
+[15.920s] -- Symlinking: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.dsv
+[15.995s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/ament_index/resource_index/packages/unitree_nav_interfaces
+[15.996s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.997s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.998s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.998s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.000s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.000s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.000s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.001s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig.cmake
+[16.002s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig-version.cmake
+[16.003s] -- Up-to-date symlink: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.xml
+[16.004s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
+[16.005s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.006s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.007s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
+[16.008s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
+[16.009s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.010s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
+[16.124s] Listing '/home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces'...
+[16.124s] Compiling '/home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/__init__.py'...
+[16.124s] Listing '/home/ros/Workshop/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv'...
+[16.133s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[16.135s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport.cmake
+[16.136s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport-noconfig.cmake
+[16.137s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[16.138s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.139s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cppExport.cmake
+[16.139s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.140s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.140s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport.cmake
+[16.141s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.143s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport.cmake
+[16.144s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport-noconfig.cmake
+[16.144s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport.cmake
+[16.145s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.146s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport.cmake
+[16.148s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[16.148s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport.cmake
+[16.148s] -- Up-to-date: /home/ros/Workshop/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport-noconfig.cmake
+[16.157s] Invoked command in '/home/ros/Workshop/src/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Workshop/src/build/unitree_nav_interfaces

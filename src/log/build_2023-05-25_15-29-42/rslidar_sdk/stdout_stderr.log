@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[0m=============================================================[0m
+[0m-- POINT_TYPE is XYZI[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0m=============================================================[0m
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+[0m=============================================================[0m
+[0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[0m=============================================================[0m
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rslidar_msg: 0.0.0 (/home/ros/Workshop/src/install/rslidar_msg/share/rslidar_msg/cmake)
+[0m=============================================================[0m
+[0m-- CMake run for UNIX GNU Compiler[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- rs_driver Version : v1.5.9[0m
+[0m=============================================================[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/Workshop/src/build/rslidar_sdk
+[ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+In file included from [01m[K/home/ros/Workshop/src/rslidar_sdk_ros2/src/rs_driver/src/rs_driver/driver/input/input_factory.hpp:42[m[K,
+                 from [01m[K/home/ros/Workshop/src/rslidar_sdk_ros2/src/rs_driver/src/rs_driver/driver/lidar_driver_impl.hpp:41[m[K,
+                 from [01m[K/home/ros/Workshop/src/rslidar_sdk_ros2/src/rs_driver/src/rs_driver/api/lidar_driver.hpp:35[m[K,
+                 from [01m[K/home/ros/Workshop/src/rslidar_sdk_ros2/src/source/source_driver.hpp:37[m[K,
+                 from [01m[K/home/ros/Workshop/src/rslidar_sdk_ros2/src/manager/node_manager.cpp:34[m[K:
+[01m[K/home/ros/Workshop/src/rslidar_sdk_ros2/src/rs_driver/src/rs_driver/driver/input/input_pcap.hpp:43:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+   43 | #include [01;31m[K<pcap.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:90: CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/rslidar_sdk_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

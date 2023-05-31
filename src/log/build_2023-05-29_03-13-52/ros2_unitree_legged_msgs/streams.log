@@ -1,0 +1,289 @@
+[0.788s] Invoking command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs -- -j4 -l4
+[5.347s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_generator_c[0m
+[6.492s] [  0%] Built target ros2_unitree_legged_msgs__cpp
+[7.374s] [  0%] Built target ament_cmake_python_symlink_ros2_unitree_legged_msgs
+[8.587s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_cpp[0m
+[8.640s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[10.329s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp[0m
+[11.828s] [ 12%] Built target ros2_unitree_legged_msgs__rosidl_generator_c
+[16.240s] running egg_info
+[16.250s] writing ros2_unitree_legged_msgs.egg-info/PKG-INFO
+[16.262s] writing dependency_links to ros2_unitree_legged_msgs.egg-info/dependency_links.txt
+[16.287s] writing top-level names to ros2_unitree_legged_msgs.egg-info/top_level.txt
+[16.464s] reading manifest file 'ros2_unitree_legged_msgs.egg-info/SOURCES.txt'
+[16.558s] writing manifest file 'ros2_unitree_legged_msgs.egg-info/SOURCES.txt'
+[17.787s] [ 12%] Built target ament_cmake_python_build_ros2_unitree_legged_msgs_egg
+[19.572s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c[0m
+[21.378s] [ 24%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_cpp
+[22.669s] [ 36%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp
+[22.798s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c[0m
+[22.989s] [ 47%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp
+[23.893s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_c[0m
+[26.414s] [ 66%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c
+[26.459s] [ 71%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_c
+[28.424s] [ 83%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c
+[30.258s] [ 83%] Built target ros2_unitree_legged_msgs
+[32.873s] [ 84%] Built target ros2_unitree_legged_msgs__py
+[34.083s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_generator_py[0m
+[40.614s] [ 95%] Built target ros2_unitree_legged_msgs__rosidl_generator_py
+[41.490s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[41.517s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[41.584s] [35m[1mConsolidate compiler generated dependencies of target ros2_unitree_legged_msgs__rosidl_typesupport_c__pyext[0m
+[44.135s] [ 97%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c__pyext
+[44.159s] [ 99%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c__pyext
+[44.182s] [100%] Built target ros2_unitree_legged_msgs__rosidl_typesupport_c__pyext
+[45.245s] Invoked command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs -- -j4 -l4
+[86.600s] Invoking command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs
+[86.780s] -- Install configuration: ""
+[86.793s] -- Execute custom install script
+[86.798s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ament_index/resource_index/rosidl_interfaces/ros2_unitree_legged_msgs
+[86.805s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/bms_cmd.h
+[86.810s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/bms_state.h
+[86.817s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/cartesian.h
+[86.826s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__functions.h
+[86.834s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.h
+[86.838s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__type_support.h
+[86.848s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__functions.h
+[86.854s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.h
+[86.860s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__type_support.h
+[86.865s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__functions.h
+[86.875s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.h
+[86.883s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__type_support.h
+[86.889s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__functions.h
+[86.895s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.h
+[86.900s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__type_support.h
+[86.907s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__functions.h
+[86.913s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__struct.h
+[86.921s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__type_support.h
+[86.930s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__functions.h
+[86.961s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__struct.h
+[86.970s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__type_support.h
+[86.975s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__functions.h
+[86.984s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__struct.h
+[86.991s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__type_support.h
+[86.995s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__functions.h
+[87.005s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.h
+[87.011s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__type_support.h
+[87.017s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__functions.h
+[87.021s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__struct.h
+[87.029s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__type_support.h
+[87.035s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__functions.h
+[87.039s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.h
+[87.044s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__type_support.h
+[87.049s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__functions.h
+[87.056s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.h
+[87.062s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__type_support.h
+[87.069s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_cmd.h
+[87.076s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_state.h
+[87.082s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/imu.h
+[87.087s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/led.h
+[87.091s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_cmd.h
+[87.095s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_state.h
+[87.101s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/motor_cmd.h
+[87.112s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/motor_state.h
+[87.118s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/rosidl_generator_c__visibility_control.h
+[87.124s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/library_path.sh
+[87.130s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/library_path.dsv
+[87.138s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[87.143s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[87.147s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__rosidl_typesupport_fastrtps_c.h
+[87.152s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__rosidl_typesupport_fastrtps_c.h
+[87.160s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__rosidl_typesupport_fastrtps_c.h
+[87.170s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[87.182s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__rosidl_typesupport_fastrtps_c.h
+[87.187s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[87.191s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[87.198s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[87.203s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[87.215s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[87.221s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[87.225s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[87.231s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__rosidl_typesupport_introspection_c.h
+[87.237s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__rosidl_typesupport_introspection_c.h
+[87.241s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__rosidl_typesupport_introspection_c.h
+[87.248s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[87.253s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__rosidl_typesupport_introspection_c.h
+[87.266s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[87.273s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[87.280s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[87.285s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[87.291s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[87.298s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/bms_cmd.hpp
+[87.309s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/bms_state.hpp
+[87.313s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/cartesian.hpp
+[87.318s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__builder.hpp
+[87.325s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__struct.hpp
+[87.329s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__traits.hpp
+[87.334s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__builder.hpp
+[87.342s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__struct.hpp
+[87.347s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__traits.hpp
+[87.356s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__builder.hpp
+[87.362s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__struct.hpp
+[87.372s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__traits.hpp
+[87.377s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__builder.hpp
+[87.382s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__struct.hpp
+[87.391s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__traits.hpp
+[87.400s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__builder.hpp
+[87.404s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__struct.hpp
+[87.410s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__traits.hpp
+[87.417s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__builder.hpp
+[87.429s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__struct.hpp
+[87.434s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__traits.hpp
+[87.438s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__builder.hpp
+[87.442s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__struct.hpp
+[87.446s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__traits.hpp
+[87.451s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__builder.hpp
+[87.458s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__struct.hpp
+[87.468s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__traits.hpp
+[87.473s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__builder.hpp
+[87.480s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__struct.hpp
+[87.484s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__traits.hpp
+[87.488s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__builder.hpp
+[87.495s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__struct.hpp
+[87.500s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__traits.hpp
+[87.503s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__builder.hpp
+[87.508s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__struct.hpp
+[87.514s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__traits.hpp
+[87.522s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_cmd.hpp
+[87.527s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/high_state.hpp
+[87.532s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/imu.hpp
+[87.536s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/led.hpp
+[87.540s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_cmd.hpp
+[87.547s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/low_state.hpp
+[87.562s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/motor_cmd.hpp
+[87.567s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/motor_state.hpp
+[87.571s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[87.575s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[87.581s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__rosidl_typesupport_fastrtps_cpp.hpp
+[87.594s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[87.603s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__rosidl_typesupport_fastrtps_cpp.hpp
+[87.607s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[87.645s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__rosidl_typesupport_fastrtps_cpp.hpp
+[87.652s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[87.657s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[87.669s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[87.673s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[87.685s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[87.690s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[87.698s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[87.703s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/cartesian__rosidl_typesupport_introspection_cpp.hpp
+[87.708s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_cmd__rosidl_typesupport_introspection_cpp.hpp
+[87.714s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/high_state__rosidl_typesupport_introspection_cpp.hpp
+[87.719s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[87.724s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/led__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[87.742s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[87.749s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[87.756s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/include/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[87.764s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/pythonpath.sh
+[87.772s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/pythonpath.dsv
+[87.778s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs-0.4.0-py3.10.egg-info/PKG-INFO
+[87.784s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs-0.4.0-py3.10.egg-info/SOURCES.txt
+[87.790s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs-0.4.0-py3.10.egg-info/dependency_links.txt
+[87.799s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs-0.4.0-py3.10.egg-info/top_level.txt
+[87.808s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/__init__.py
+[87.815s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_c.c
+[87.818s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[87.823s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/_ros2_unitree_legged_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[87.836s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/libros2_unitree_legged_msgs__rosidl_generator_py.so
+[87.848s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/__init__.py
+[87.854s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_bms_cmd.py
+[87.860s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_bms_cmd_s.c
+[87.865s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_bms_state.py
+[87.870s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_bms_state_s.c
+[87.875s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_cartesian.py
+[87.882s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_cartesian_s.c
+[87.890s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_high_cmd.py
+[87.897s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_high_cmd_s.c
+[87.903s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_high_state.py
+[87.908s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_high_state_s.c
+[87.918s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_imu.py
+[87.922s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_imu_s.c
+[87.928s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_led.py
+[87.933s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_led_s.c
+[87.938s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_low_cmd.py
+[87.942s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_low_cmd_s.c
+[87.951s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_low_state.py
+[87.958s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_low_state_s.c
+[87.965s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_motor_cmd.py
+[87.972s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_motor_cmd_s.c
+[87.976s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_motor_state.py
+[87.981s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg/_motor_state_s.c
+[87.996s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[88.006s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[88.011s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[88.020s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[88.027s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[88.034s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[88.041s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/MotorCmd.idl
+[88.047s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/MotorState.idl
+[88.050s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/BmsCmd.idl
+[88.055s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/BmsState.idl
+[88.068s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/Cartesian.idl
+[88.075s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/IMU.idl
+[88.080s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/LED.idl
+[88.085s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/LowCmd.idl
+[88.093s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/LowState.idl
+[88.099s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/HighCmd.idl
+[88.108s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/HighState.idl
+[88.114s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/MotorCmd.msg
+[88.120s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/MotorState.msg
+[88.127s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/BmsCmd.msg
+[88.135s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/BmsState.msg
+[88.139s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/Cartesian.msg
+[88.145s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/IMU.msg
+[88.149s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/LED.msg
+[88.154s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/LowCmd.msg
+[88.162s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/LowState.msg
+[88.169s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/HighCmd.msg
+[88.174s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/msg/HighState.msg
+[88.180s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ament_index/resource_index/package_run_dependencies/ros2_unitree_legged_msgs
+[88.185s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ament_index/resource_index/parent_prefix_path/ros2_unitree_legged_msgs
+[88.191s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/ament_prefix_path.sh
+[88.197s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/ament_prefix_path.dsv
+[88.202s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/path.sh
+[88.208s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/environment/path.dsv
+[88.218s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/local_setup.bash
+[88.222s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/local_setup.sh
+[88.227s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/local_setup.zsh
+[88.231s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/local_setup.dsv
+[88.236s] -- Symlinking: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.dsv
+[88.443s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ament_index/resource_index/packages/ros2_unitree_legged_msgs
+[88.447s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/rosidl_cmake-extras.cmake
+[88.453s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[88.459s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[88.468s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[88.474s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[88.479s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[88.483s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[88.487s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgsConfig.cmake
+[88.493s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgsConfig-version.cmake
+[88.501s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.xml
+[88.507s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_c.so
+[88.516s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c.so
+[88.527s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_c.so
+[88.536s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_c.so
+[88.545s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp.so
+[88.555s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp.so
+[88.561s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_typesupport_cpp.so
+[88.851s] Listing '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs'...
+[88.854s] Listing '/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages/ros2_unitree_legged_msgs/msg'...
+[88.867s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib/libros2_unitree_legged_msgs__rosidl_generator_py.so
+[88.878s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_generator_cExport.cmake
+[88.882s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_generator_cExport-noconfig.cmake
+[88.899s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[88.903s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[88.913s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cExport.cmake
+[88.917s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[88.926s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_cExport.cmake
+[88.931s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[88.940s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_generator_cppExport.cmake
+[88.949s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[88.957s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[88.965s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[88.973s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[88.989s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_cppExport.cmake
+[88.997s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/ros2_unitree_legged_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[89.007s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_generator_pyExport.cmake
+[89.012s] -- Up-to-date: /workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake/export_ros2_unitree_legged_msgs__rosidl_generator_pyExport-noconfig.cmake
+[89.030s] Invoked command in '/workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs

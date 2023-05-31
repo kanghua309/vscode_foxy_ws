@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /workspaces/my_ros2_ws/src/build/ros2_unitree_legged_msgs/CMakeCache.txt is different than the directory /home/ros/Workshop/src/build/ros2_unitree_legged_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/ros/Workshop/src/unitree_ros2/ros2_unitree_legged_msgs" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:2907: cmake_check_build_system] Error 1

@@ -1,0 +1,1 @@
+/workspaces/my_ros2_ws/src/build/rslidar_msg/ament_cmake_environment_hooks/local_setup.bash

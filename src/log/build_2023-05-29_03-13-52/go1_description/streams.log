@@ -1,0 +1,38 @@
+[0.905s] Invoking command in '/workspaces/my_ros2_ws/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/go1_description -- -j4 -l4
+[3.896s] Invoked command in '/workspaces/my_ros2_ws/src/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/go1_description -- -j4 -l4
+[10.738s] Invoking command in '/workspaces/my_ros2_ws/src/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/go1_description
+[11.912s] -- Install configuration: ""
+[11.943s] -- Execute custom install script
+[12.015s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//launch/load_go1.launch.py
+[12.060s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//config/go1.rviz
+[12.143s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//meshes/calf.dae
+[12.196s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[12.264s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//meshes/hip.dae
+[12.325s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//meshes/thigh.dae
+[12.385s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[12.419s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//meshes/trunk.dae
+[12.472s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[12.508s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/const.xacro
+[12.529s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[12.562s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[12.592s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/leg.xacro
+[12.626s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/materials.xacro
+[12.651s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/robot.xacro
+[12.705s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/transmission.xacro
+[12.731s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[12.753s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[12.787s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[12.825s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[12.852s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[12.887s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/environment/path.sh
+[12.915s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/environment/path.dsv
+[12.951s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/local_setup.bash
+[12.974s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/local_setup.sh
+[13.004s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/local_setup.zsh
+[13.030s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/local_setup.dsv
+[13.055s] -- Symlinking: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.dsv
+[14.226s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[14.270s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[14.302s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[14.335s] -- Up-to-date symlink: /workspaces/my_ros2_ws/src/install/go1_description/share/go1_description/package.xml
+[14.369s] Invoked command in '/workspaces/my_ros2_ws/src/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/go1_description

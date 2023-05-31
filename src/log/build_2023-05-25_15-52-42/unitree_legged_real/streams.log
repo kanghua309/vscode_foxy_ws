@@ -1,0 +1,23 @@
+[0.076s] Invoking command in '/home/ros/Workshop/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros/Workshop/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/Workshop/src/build/unitree_legged_real -- -j4 -l4
+[0.560s] [  6%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[0.588s] [ 12%] [32m[1mLinking CXX executable jsp_high[0m
+[0.600s] [ 18%] [32m[1mLinking CXX executable jsp_low[0m
+[0.613s] [ 25%] [32mBuilding CXX object CMakeFiles/udp_high.dir/src/udp_high.cpp.o[0m
+[1.183s] [ 31%] Built target jsp_low
+[1.267s] [ 37%] Built target jsp_high
+[1.468s] [ 43%] [32mBuilding CXX object CMakeFiles/udp_low.dir/src/udp_low.cpp.o[0m
+[1.537s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[52.771s] [ 56%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[53.518s] [ 56%] Built target ros2_walk_example
+[71.778s] [ 62%] [32m[1mLinking CXX executable udp_low[0m
+[71.917s] [ 68%] [32m[1mLinking CXX executable udp_high[0m
+[72.490s] [ 68%] Built target udp_high
+[72.498s] [ 68%] Built target udp_low
+[78.889s] [ 75%] [32m[1mLinking CXX executable ros2_udp[0m
+[79.249s] [ 75%] Built target ros2_udp
+[79.419s] [ 81%] [32mBuilding CXX object CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o[0m
+[94.307s] [ 87%] [32m[1mLinking CXX executable custom_gait[0m
+[94.632s] [ 87%] Built target custom_gait
+[94.777s] [ 93%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[102.105s] [100%] [32m[1mLinking CXX executable ros2_position_example[0m
+[102.371s] [100%] Built target ros2_position_example

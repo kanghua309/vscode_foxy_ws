@@ -1,0 +1,40 @@
+[11.370s] Invoking command in '/workspaces/my_ros2_ws/src/build/listen_talk_ros2': PYTHONPATH=/workspaces/my_ros2_ws/src/build/listen_talk_ros2/prefix_override:/workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/listen_talk_ros2/build --no-deps install_data
+[15.671s] running develop
+[17.662s] running egg_info
+[17.676s] creating listen_talk_ros2.egg-info
+[17.711s] writing listen_talk_ros2.egg-info/PKG-INFO
+[17.797s] writing dependency_links to listen_talk_ros2.egg-info/dependency_links.txt
+[17.873s] writing entry points to listen_talk_ros2.egg-info/entry_points.txt
+[17.907s] writing requirements to listen_talk_ros2.egg-info/requires.txt
+[17.941s] writing top-level names to listen_talk_ros2.egg-info/top_level.txt
+[17.994s] writing manifest file 'listen_talk_ros2.egg-info/SOURCES.txt'
+[18.262s] reading manifest file 'listen_talk_ros2.egg-info/SOURCES.txt'
+[18.377s] writing manifest file 'listen_talk_ros2.egg-info/SOURCES.txt'
+[18.400s] running build_ext
+[18.407s] Creating /workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/python3.10/site-packages/listen-talk-ros2.egg-link (link to .)
+[18.454s] Installing listen script to /workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/listen_talk_ros2
+[18.497s] Installing talk script to /workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/listen_talk_ros2
+[18.529s] 
+[18.536s] Installed /workspaces/my_ros2_ws/src/build/listen_talk_ros2
+[18.556s] running install_data
+[18.563s] creating /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/ament_index
+[18.572s] creating /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/ament_index/resource_index
+[18.577s] creating /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/ament_index/resource_index/packages
+[18.586s] copying resource/listen_talk_ros2 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/ament_index/resource_index/packages
+[18.649s] copying package.xml -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[18.696s] copying launch/listen_talk.launch.py -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[18.745s] copying config/Hey-Willie_en_linux_v2_1_0.ppn -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[18.787s] copying config/Dog-command_en_linux_v2_1_0.rhn -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[18.844s] copying config/Hey-Willie_en_jetson_v2_1_0.ppn -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[18.888s] copying config/Dog-command_en_jetson_v2_1_0.rhn -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[18.938s] copying config/talk.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[18.983s] copying config/German_shepherd_barking.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[19.099s] copying config/allan.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[19.170s] copying config/easter_egg.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[19.224s] copying config/not_understanding.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[19.296s] copying config/stairs_in_front.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[19.371s] copying config/stairs_left.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[19.513s] copying config/stairs_right.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[20.246s] copying config/thank_you.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[20.466s] copying config/willie_greet.mp3 -> /workspaces/my_ros2_ws/src/install/listen_talk_ros2/share/listen_talk_ros2
+[21.064s] Invoked command in '/workspaces/my_ros2_ws/src/build/listen_talk_ros2' returned '0': PYTHONPATH=/workspaces/my_ros2_ws/src/build/listen_talk_ros2/prefix_override:/workspaces/my_ros2_ws/src/install/listen_talk_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspaces/my_ros2_ws/src/build/listen_talk_ros2/build --no-deps install_data

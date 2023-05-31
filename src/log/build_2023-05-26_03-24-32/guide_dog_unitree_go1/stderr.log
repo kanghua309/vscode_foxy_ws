@@ -1,0 +1,6 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/FindDoxygen.cmake:859 (message):
+  Doxygen was not found, needed by doxygen_add_docs() for target doxygen
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (doxygen_add_docs)
+
+[0m

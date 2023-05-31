@@ -1,0 +1,64 @@
+[1.810s] Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib:/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_nav/unitree_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_nav
+[5.118s] -- The C compiler identification is GNU 11.3.0
+[7.601s] -- The CXX compiler identification is GNU 11.3.0
+[7.833s] -- Detecting C compiler ABI info
+[12.267s] -- Detecting C compiler ABI info - done
+[12.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[12.307s] -- Detecting C compile features
+[12.312s] -- Detecting C compile features - done
+[12.361s] -- Detecting CXX compiler ABI info
+[16.544s] -- Detecting CXX compiler ABI info - done
+[16.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[16.592s] -- Detecting CXX compile features
+[16.597s] -- Detecting CXX compile features - done
+[16.811s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[22.152s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[22.922s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[28.419s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[31.166s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[31.721s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[32.242s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[33.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.580s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[38.910s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[45.727s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[46.655s] -- Found FastRTPS: /opt/ros/humble/include  
+[47.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[48.519s] -- Looking for pthread.h
+[52.513s] -- Looking for pthread.h - found
+[52.526s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[56.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[56.875s] -- Found Threads: TRUE  
+[58.273s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[59.228s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[59.435s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[59.749s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[60.181s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[60.945s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[60.957s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[60.962s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[62.613s] -- Found nav2_msgs: 1.1.6 (/opt/ros/humble/share/nav2_msgs/cmake)
+[63.567s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[63.733s] -- Found unitree_nav_interfaces: 0.0.0 (/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake)
+[64.225s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[66.357s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[66.363s] -- Configured cppcheck include dirs: 
+[66.371s] -- Configured cppcheck exclude dirs and/or files: 
+[66.643s] -- Added test 'flake8' to check Python code syntax and style conventions
+[67.002s] -- Added test 'lint_cmake' to check CMake code style
+[67.229s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[67.872s] -- Added test 'uncrustify' to check C / C++ code style
+[67.876s] -- Configured uncrustify additional arguments: 
+[68.095s] -- Added test 'xmllint' to check XML markup files
+[68.511s] -- Configuring done
+[69.417s] -- Generating done
+[69.563s] -- Build files have been written to: /workspaces/my_ros2_ws/src/build/unitree_nav
+[69.613s] Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_nav' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib:/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/my_ros2_ws/src/unitree_nav/unitree_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/my_ros2_ws/src/install/unitree_nav
+[69.635s] Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_nav': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/rslidar_sdk:/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/src/install/rslidar_msg:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/lib:/workspaces/my_ros2_ws/src/install/rslidar_msg/lib:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/rslidar_msg/local/lib/python3.10/dist-packages:/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_nav -- -j4 -l4
+[72.455s] [ 25%] [32mBuilding CXX object CMakeFiles/cmd_processor.dir/src/cmd_processor.cpp.o[0m
+[730.366s] [ 50%] [32m[1mLinking CXX executable cmd_processor[0m
+[759.265s] [ 50%] Built target cmd_processor
+[760.612s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_to_pose.dir/src/nav_to_pose.cpp.o[0m
+[776.011s] [100%] [32m[1mLinking CXX executable nav_to_pose[0m
+[783.593s] [100%] Built target nav_to_pose

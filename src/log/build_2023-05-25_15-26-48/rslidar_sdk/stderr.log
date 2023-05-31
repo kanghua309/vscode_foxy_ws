@@ -1,0 +1,25 @@
+[0m=============================================================[0m
+[0m-- POINT_TYPE is XYZI[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- CMake run for UNIX GNU Compiler[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- rs_driver Version : v1.5.9[0m
+[0m=============================================================[0m
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 65, in build
+    has_install_target = await has_target(args.build_base, 'install')
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 56, in has_target
+    if 'Unix Makefiles' in generator:
+TypeError: argument of type 'NoneType' is not iterable

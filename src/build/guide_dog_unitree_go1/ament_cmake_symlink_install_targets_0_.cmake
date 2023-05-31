@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/my_ros2_ws/src/build/guide_dog_unitree_go1/voice_control" "/workspaces/my_ros2_ws/src/build/guide_dog_unitree_go1/vision_obstacles" "/workspaces/my_ros2_ws/src/build/guide_dog_unitree_go1/guide_dog" "TARGETS" "voice_control" "vision_obstacles" "guide_dog" "DESTINATION" "lib/guide_dog_unitree_go1")

@@ -1,0 +1,57 @@
+[1.029s] Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_legged_real -- -j4 -l4
+[4.570s] [35m[1mConsolidate compiler generated dependencies of target udp_high[0m
+[5.590s] [  6%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[5.598s] [35m[1mConsolidate compiler generated dependencies of target jsp_low[0m
+[7.902s] [35m[1mConsolidate compiler generated dependencies of target jsp_high[0m
+[13.490s] [ 18%] Built target jsp_low
+[13.820s] [ 31%] Built target udp_high
+[14.760s] [ 43%] Built target jsp_high
+[17.116s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[18.371s] [ 56%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[19.428s] [ 62%] [32mBuilding CXX object CMakeFiles/udp_low.dir/src/udp_low.cpp.o[0m
+[126.371s] [ 68%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[131.541s] [ 75%] [32m[1mLinking CXX executable ros2_position_example[0m
+[141.714s] [ 75%] Built target ros2_walk_example
+[144.202s] [ 75%] Built target ros2_position_example
+[196.152s] [ 81%] [32m[1mLinking CXX executable udp_low[0m
+[215.781s] [ 81%] Built target udp_low
+[216.506s] [ 87%] [32m[1mLinking CXX executable ros2_udp[0m
+[233.372s] [ 87%] Built target ros2_udp
+[234.356s] [ 93%] [32mBuilding CXX object CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o[0m
+[287.784s] [100%] [32m[1mLinking CXX executable custom_gait[0m
+[297.439s] [100%] Built target custom_gait
+[298.082s] Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/my_ros2_ws/src/build/unitree_legged_real -- -j4 -l4
+[301.885s] Invoking command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/unitree_legged_real
+[302.295s] -- Install configuration: ""
+[302.305s] -- Execute custom install script
+[302.327s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+[302.735s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+[303.070s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[303.399s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/udp_high
+[303.763s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/jsp_high
+[304.119s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[304.444s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[304.781s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/custom_gait
+[305.116s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/udp_low
+[305.750s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/lib/unitree_legged_real/jsp_low
+[306.269s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//launch/high.launch.py
+[306.538s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//launch/low.launch.py
+[306.983s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//config/cmd_only.rviz
+[307.385s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//config/state_and_cmd.rviz
+[307.830s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real//config/state_only.rviz
+[308.281s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[308.931s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[309.504s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[310.073s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[310.551s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[311.018s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[311.461s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[311.966s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[312.453s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[312.960s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[314.602s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[315.070s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[315.532s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[316.093s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[316.547s] -- Symlinking: /workspaces/my_ros2_ws/src/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[317.435s] Invoked command in '/workspaces/my_ros2_ws/src/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/guide_dog_unitree_go1:/workspaces/my_ros2_ws/install/unitree_nav:/workspaces/my_ros2_ws/install/unitree_nav_interfaces:/workspaces/my_ros2_ws/install/unitree_legged_real:/workspaces/my_ros2_ws/install/rslidar_sdk:/workspaces/my_ros2_ws/install/rslidar_msg:/workspaces/my_ros2_ws/install/ros2_unitree_legged_msgs:/workspaces/my_ros2_ws/install/go1_description:/workspaces/my_ros2_ws/install:/workspaces/my_ros2_ws/install/object_detection:/workspaces/my_ros2_ws/install/unitree_nav_launch_module:/workspaces/my_ros2_ws/install/listen_talk_ros2:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/my_ros2_ws/src/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/my_ros2_ws/src/build/unitree_legged_real

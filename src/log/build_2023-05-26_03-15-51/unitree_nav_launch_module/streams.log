@@ -1,0 +1,16 @@
+[5.038s] Invoking command in '/home/ros/Workshop/src/build/unitree_nav_launch_module': PYTHONPATH=/home/ros/Workshop/src/build/unitree_nav_launch_module/prefix_override:/home/ros/Workshop/src/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros/Workshop/src/build/unitree_nav_launch_module/build --no-deps install_data
+[7.020s] running develop
+[7.873s] running egg_info
+[7.875s] writing unitree_nav_launch_module.egg-info/PKG-INFO
+[7.876s] writing dependency_links to unitree_nav_launch_module.egg-info/dependency_links.txt
+[7.876s] writing entry points to unitree_nav_launch_module.egg-info/entry_points.txt
+[7.876s] writing requirements to unitree_nav_launch_module.egg-info/requires.txt
+[7.876s] writing top-level names to unitree_nav_launch_module.egg-info/top_level.txt
+[7.884s] reading manifest file 'unitree_nav_launch_module.egg-info/SOURCES.txt'
+[7.886s] writing manifest file 'unitree_nav_launch_module.egg-info/SOURCES.txt'
+[7.888s] running build_ext
+[7.889s] Creating /home/ros/Workshop/src/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree-nav-launch-module.egg-link (link to .)
+[7.895s] 
+[7.895s] Installed /home/ros/Workshop/src/build/unitree_nav_launch_module
+[7.895s] running install_data
+[7.973s] Invoked command in '/home/ros/Workshop/src/build/unitree_nav_launch_module' returned '0': PYTHONPATH=/home/ros/Workshop/src/build/unitree_nav_launch_module/prefix_override:/home/ros/Workshop/src/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros/Workshop/src/build/unitree_nav_launch_module/build --no-deps install_data

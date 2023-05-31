@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/unitree_nav_launch_module
+unitree_nav_launch_module/__init__.py
+unitree_nav_launch_module/ternary_text_substitution.py
+unitree_nav_launch_module.egg-info/PKG-INFO
+unitree_nav_launch_module.egg-info/SOURCES.txt
+unitree_nav_launch_module.egg-info/dependency_links.txt
+unitree_nav_launch_module.egg-info/entry_points.txt
+unitree_nav_launch_module.egg-info/requires.txt
+unitree_nav_launch_module.egg-info/top_level.txt
+unitree_nav_launch_module.egg-info/zip-safe

@@ -1,0 +1,22 @@
+[1.768s] Invoking command in '/home/ros/Workshop/src/build/unitree_nav_launch_module': PYTHONPATH=/home/ros/Workshop/src/build/unitree_nav_launch_module/prefix_override:/home/ros/Workshop/src/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros/Workshop/src/build/unitree_nav_launch_module/build --no-deps install_data
+[2.410s] running develop
+[2.411s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.413s]   warnings.warn(
+[2.414s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.414s]   warnings.warn(
+[2.634s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[2.635s]   warnings.warn(
+[3.016s] running egg_info
+[3.017s] writing unitree_nav_launch_module.egg-info/PKG-INFO
+[3.017s] writing dependency_links to unitree_nav_launch_module.egg-info/dependency_links.txt
+[3.018s] writing entry points to unitree_nav_launch_module.egg-info/entry_points.txt
+[3.018s] writing requirements to unitree_nav_launch_module.egg-info/requires.txt
+[3.018s] writing top-level names to unitree_nav_launch_module.egg-info/top_level.txt
+[3.022s] reading manifest file 'unitree_nav_launch_module.egg-info/SOURCES.txt'
+[3.024s] writing manifest file 'unitree_nav_launch_module.egg-info/SOURCES.txt'
+[3.027s] running build_ext
+[3.027s] Creating /home/ros/Workshop/src/install/unitree_nav_launch_module/lib/python3.10/site-packages/unitree-nav-launch-module.egg-link (link to .)
+[3.030s] 
+[3.030s] Installed /home/ros/Workshop/src/build/unitree_nav_launch_module
+[3.031s] running install_data
+[3.086s] Invoked command in '/home/ros/Workshop/src/build/unitree_nav_launch_module' returned '0': PYTHONPATH=/home/ros/Workshop/src/build/unitree_nav_launch_module/prefix_override:/home/ros/Workshop/src/install/unitree_nav_launch_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ros/Workshop/src/build/unitree_nav_launch_module/build --no-deps install_data

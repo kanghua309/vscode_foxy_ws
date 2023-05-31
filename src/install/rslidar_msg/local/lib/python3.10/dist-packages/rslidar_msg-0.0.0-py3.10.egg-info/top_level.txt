@@ -1,0 +1,1 @@
+/workspaces/my_ros2_ws/src/build/rslidar_msg/ament_cmake_python/rslidar_msg/rslidar_msg.egg-info/top_level.txt
