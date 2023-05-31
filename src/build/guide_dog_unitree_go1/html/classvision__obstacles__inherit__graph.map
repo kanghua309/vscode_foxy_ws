@@ -1,4 +1,0 @@
-<map id="vision_obstacles" name="vision_obstacles">
-<area shape="rect" id="node1" title="Subscribes to topics published by YOLOv7_ROS2 and publishes marker arrays in Rviz where these obstacl..." alt="" coords="5,80,136,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="19,5,122,32"/>
-</map>

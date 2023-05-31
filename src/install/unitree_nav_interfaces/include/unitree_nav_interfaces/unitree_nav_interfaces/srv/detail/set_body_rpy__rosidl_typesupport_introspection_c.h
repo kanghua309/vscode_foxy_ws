@@ -1,1 +1,0 @@
-/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces/rosidl_typesupport_introspection_c/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_c.h

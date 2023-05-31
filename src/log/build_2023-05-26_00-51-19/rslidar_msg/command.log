@@ -1,6 +1,0 @@
-Invoking command in '/home/ros/Workshop/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Workshop/src/rslidar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/rslidar_msg
-Invoked command in '/home/ros/Workshop/src/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Workshop/src/rslidar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/rslidar_msg
-Invoking command in '/home/ros/Workshop/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Workshop/src/build/rslidar_msg -- -j4 -l4
-Invoked command in '/home/ros/Workshop/src/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/Workshop/src/build/rslidar_msg -- -j4 -l4
-Invoking command in '/home/ros/Workshop/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Workshop/src/build/rslidar_msg
-Invoked command in '/home/ros/Workshop/src/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/Workshop/src/build/rslidar_msg

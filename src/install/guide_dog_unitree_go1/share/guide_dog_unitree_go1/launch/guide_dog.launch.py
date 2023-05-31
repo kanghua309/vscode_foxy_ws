@@ -1,1 +1,0 @@
-/workspaces/my_ros2_ws/src/Guide_dog_Unitree_Go1/guide_dog_unitree_go1/launch/guide_dog.launch.py

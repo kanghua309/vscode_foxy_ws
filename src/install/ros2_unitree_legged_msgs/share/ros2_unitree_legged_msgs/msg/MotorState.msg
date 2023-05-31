@@ -1,1 +1,0 @@
-/workspaces/my_ros2_ws/src/unitree_ros2/ros2_unitree_legged_msgs/msg/MotorState.msg

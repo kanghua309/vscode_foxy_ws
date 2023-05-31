@@ -1,1 +1,0 @@
-Invoking command in '/home/ros/Workshop/src/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/Workshop/src/rslidar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/Workshop/src/install/rslidar_msg

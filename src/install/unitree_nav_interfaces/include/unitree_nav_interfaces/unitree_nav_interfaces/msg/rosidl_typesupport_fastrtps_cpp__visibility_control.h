@@ -1,1 +1,0 @@
-/workspaces/my_ros2_ws/src/build/unitree_nav_interfaces/rosidl_typesupport_fastrtps_cpp/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
