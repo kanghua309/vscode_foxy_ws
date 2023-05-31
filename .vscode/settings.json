@@ -37,7 +37,6 @@
         "**/log": true
     },
     "cSpell.words": [
-        "RTPS",
         "athackst",
         "autopep",
         "cmake",
@@ -48,6 +47,7 @@
         "devcontainer",
         "ints",
         "noqa",
+        "pvrecorder",
         "pytest",
         "rclcpp",
         "rclpy",
@@ -70,5 +70,6 @@
         ".vscode",
         ".vscode-insiders",
         ".devcontainer/devcontainer.json"
-    ]
+    ],
+    "cmake.sourceDirectory": "/workspaces/my_ros2_ws/src/examples/rclcpp/wait_set"
 }

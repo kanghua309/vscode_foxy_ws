@@ -8,6 +8,8 @@ FROM kanghua151/guide_dog_ros_humble:v2
 #    #
 #    # Clean up
 #    && apt-get autoremove -y \
+
+
 #    && apt-get clean -y \
 #    && rm -rf /var/lib/apt/lists/*
 # ENV DEBIAN_FRONTEND=dialog
@@ -15,3 +17,8 @@ FROM kanghua151/guide_dog_ros_humble:v2
 # Set up auto-source of workspace for ros user
 ARG WORKSPACE
 RUN echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/install/setup.bash; fi" >> /home/ros/.bashrc
+
+
+
+
+
