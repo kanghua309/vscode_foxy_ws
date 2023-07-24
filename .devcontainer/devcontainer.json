@@ -13,7 +13,8 @@
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined",
 		"--volume=/tmp/.X11-unix:/tmp/.X11-unix",
-		"--volume=/Users/${localEnv:USER}/.ssh:/home/ros/.ssh:ro",
+		"--volume=/Users/${localEnv:USER}/.ssh:/home/ros/.ssh",
+		"--volume=/var/run/docker.sock:/var/run/docker.sock",
 		"--ipc=host"
 	],
 	"containerEnv": {
