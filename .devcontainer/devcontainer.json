@@ -14,11 +14,11 @@
 		"--security-opt=apparmor:unconfined",
 		"--volume=/tmp/.X11-unix:/tmp/.X11-unix",
 		"--volume=/Users/${localEnv:USER}/.ssh:/home/ros/.ssh :ro", //?
-		"--ipc=host" //add video and add snd
+		"--ipc=host" //also need add video and add snd
 	],
 	"containerEnv": {
 		//"DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows
-		"DISPLAY": "host.docker.internal:0",
+		"DISPLAY": "host.docker.internal:0", //fix it 
 		"WAYLAND_DISPLAY": "${localEnv:WAYLAND_DISPLAY}",
 		"XDG_RUNTIME_DIR": "${localEnv:XDG_RUNTIME_DIR}",
 		"PULSE_SERVER": "${localEnv:PULSE_SERVER}",

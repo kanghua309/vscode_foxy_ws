@@ -55,8 +55,6 @@ RUN pip3 install rosdepc
 RUN rosdepc init
 RUN rosdepc update
 
-
-
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
        ros-foxy-desktop \
@@ -66,7 +64,6 @@ RUN apt-get update \
        ros-foxy-navigation2 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
-
 
 
 # Set up auto-source of workspace for ros user
