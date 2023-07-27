@@ -33,6 +33,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 USER root
 
+# add deps 
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
        vim \
@@ -64,6 +65,25 @@ RUN apt-get update \
        ros-foxy-navigation2 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+
+
+# Set up VNC
+RUN apt-get update \
+    && apt-get install --yes --no-install-recommends \
+       tigervnc-standalone-server \ 
+       tigervnc-common \
+       novnc \
+       lxde \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN cat <<EOF > ~/.vnc/xstartup
+lxterminal &
+/usr/bin/lxsession -s LXDE 
+EOF
+
+RUN chmod +x ~/.vnc/xstartup
 
 
 # Set up auto-source of workspace for ros user
