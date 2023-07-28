@@ -52,20 +52,19 @@ RUN cd /tmp/lcm/lcm-python && pip3 install -e .
 
 RUN pip3 install --no-cache-dir setuptools==58.2.0  picovoice==2.1.0 gTTS
 
-RUN pip3 install rosdepc
-RUN rosdepc init
-RUN rosdepc update
+# RUN pip3 install rosdepc
+# RUN rosdepc init
+# RUN rosdepc update
 
-RUN apt-get update \
-    && apt-get install --yes --no-install-recommends \
-       ros-foxy-desktop \
-       python3-argcomplete \
-       ros-foxy-xacro \
-       ros-foxy-diagnostic-updater \
-       ros-foxy-navigation2 \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
+# RUN apt-get update \
+#     && apt-get install --yes --no-install-recommends \
+#        ros-foxy-desktop \
+#        python3-argcomplete \
+#        ros-foxy-xacro \
+#        ros-foxy-diagnostic-updater \
+#        ros-foxy-navigation2 \
+#     && apt-get clean \
+#     && rm -rf /var/lib/apt/lists/*
 
 
 # Set up VNC
@@ -78,7 +77,9 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN cat <<EOF > ~/.vnc/xstartup
+
+RUN mkdir -p ~/.vnc \
+&& cat <<EOF > ~/.vnc/xstartup
 lxterminal &
 /usr/bin/lxsession -s LXDE 
 EOF
