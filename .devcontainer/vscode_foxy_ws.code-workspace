@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../src"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.repos": "yaml",
+			"*.world": "xml",
+			"*.xacro": "xml"
+		},
+		"python.autoComplete.extraPaths": [
+			"/workspaces/vscode_foxy_ws/install/velodyne_msgs/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/unitree_nav_launch_module",
+			"/workspaces/vscode_foxy_ws/install/unitree_nav_launch_module/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/install/unitree_nav_interfaces/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/install/ros2_unitree_legged_msgs/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/republisher_ros2",
+			"/workspaces/vscode_foxy_ws/install/republisher_ros2/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/listen_talk_ros2",
+			"/workspaces/vscode_foxy_ws/install/listen_talk_ros2/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/ball_track_ros2",
+			"/workspaces/vscode_foxy_ws/install/ball_track_ros2/lib/python3.8/site-packages",
+			"/opt/ros/foxy/lib/python3.8/site-packages"
+		],
+		"python.analysis.extraPaths": [
+			"/workspaces/vscode_foxy_ws/install/velodyne_msgs/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/unitree_nav_launch_module",
+			"/workspaces/vscode_foxy_ws/install/unitree_nav_launch_module/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/install/unitree_nav_interfaces/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/install/ros2_unitree_legged_msgs/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/republisher_ros2",
+			"/workspaces/vscode_foxy_ws/install/republisher_ros2/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/listen_talk_ros2",
+			"/workspaces/vscode_foxy_ws/install/listen_talk_ros2/lib/python3.8/site-packages",
+			"/workspaces/vscode_foxy_ws/build/ball_track_ros2",
+			"/workspaces/vscode_foxy_ws/install/ball_track_ros2/lib/python3.8/site-packages",
+			"/opt/ros/foxy/lib/python3.8/site-packages"
+		]
+	}
+}
