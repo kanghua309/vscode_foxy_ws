@@ -14,8 +14,8 @@ FROM althack/ros2:foxy-dev
 #    && rm -rf /var/lib/apt/lists/*
 # ENV DEBIAN_FRONTEND=dialog
 
-RUN sed -i s/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g /etc/apt/sources.list
-RUN sed -i s/security.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g /etc/apt/sources.list
+RUN sed -i s/archive.ubuntu.com/mirrors.aliyun.com/g /etc/apt/sources.list
+RUN sed -i s/security.ubuntu.com/mirrors.aliyun.com/g /etc/apt/sources.list
 
 RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple 
 RUN pip config set install.trusted-host mirrors.aliyun.com
@@ -40,13 +40,12 @@ RUN apt-get update \
        openssh-client \
        doxygen \
        software-properties-common \
-       libglib2.0-dev \
        ca-certificates \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
     && add-apt-repository universe
 
-RUN apt-get -y update && apt-get install -y --no-install-recommends make gcc-8 g++-8
+RUN apt-get -y update && apt-get install -y --no-install-recommends make gcc-8 g++-8 libglib2.0-dev 
 RUN cd /tmp && git clone https://ghproxy.com/https://github.com/lcm-proj/lcm.git && cd lcm && mkdir build && cd build && cmake .. && make -j && make install
 RUN cd /tmp/lcm/lcm-python && pip3 install -e .
 
@@ -78,12 +77,9 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 
-RUN mkdir -p ~/.vnc \
-&& cat <<EOF > ~/.vnc/xstartup
-lxterminal &
-/usr/bin/lxsession -s LXDE 
-EOF
-
+RUN mkdir -p ~/.vnc 
+RUN echo -e "lxterminal &\n\
+/usr/bin/lxsession -s LXDE " > ~/.vnc/xstartup
 RUN chmod +x ~/.vnc/xstartup
 
 
